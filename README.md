@@ -23,16 +23,16 @@ End the program
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
-#Developed by:N.Swetha
-#RegisterNumber:212222110050
+#Developed by: Gopika R
+#RegisterNumber: 212222240031
 import numpy as np
-A=np.array(([2,2],[1,3]))
+A=np.array(([-2,2,-3],[2,1,-6],[-1,-2,0]))
 evalues,evector=np.linalg.eig(A)
 print("Eigen values are {} and Eigen Vectors are {}".format(evalues,evector))
 ```
 
 ## Output:
-![output](eigenvalues.png)
+![output](eignvector.png)
 
 ## Result:
 Thus the Eigen value and Eigen vector is successfully solved using python program.
